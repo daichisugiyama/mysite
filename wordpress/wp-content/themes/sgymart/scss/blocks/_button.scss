@@ -1,0 +1,8 @@
+@each $color, $value in $theme-colors {
+    .#{$color} .cn-set-cookie {
+        background-color: tint-color($value, 10%) !important;
+    }
+    .#{$color} .cn-more-info {
+        background-color: tint-color($value, 10%) !important;
+    }
+}

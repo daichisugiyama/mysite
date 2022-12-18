@@ -1,0 +1,137 @@
+// TOPページ
+.top {
+    // メインビジュアル
+    &__mainvisual {
+        // 位置
+        &__position {
+            height: calc(100vh - 56px);
+            margin-top: 56px;
+        }     
+        // 背景
+        &__bg {
+            background-color: #55adb4;
+        }     
+        // 見出し
+        &__heading {
+            color: #f5f5f5;
+            font-size: 52px;
+        }     
+        // 本文
+        &__text {
+            color: #f5f5f5;
+            // font-size: 27px;
+        }     
+    }
+    // このサイトについて
+    &__about-site {
+        // 位置
+        &__position {
+            height: calc(100vh - 56px);
+        }     
+        // 背景
+        &__bg {
+            background-image: url(/wp-content/themes/sgym/img/bg.jpg);
+        }     
+        // 見出し
+        &__heading {
+            font-size: 52px;
+            margin-bottom: 15px;
+        }     
+        // 本文
+        &__text {
+            font-size: 17px;
+            line-height: 2rem;
+        }     
+    }
+    &__about-me {
+        // 位置
+        &__position {
+            height: calc(100vh - 56px);
+        }     
+        // 背景
+        &__bg {
+            background-color: #fafafa;
+        }     
+        // 見出し
+        &__heading {
+            font-size: 52px;
+        }     
+        // 本文
+        &__text {
+            // font-size: 27px;
+        }    
+    }
+    &__works {
+        // 位置
+        &__position {
+            height: calc(100vh - 56px);
+        }     
+        // 背景
+        &__bg {
+            background-image: url(/wp-content/themes/sgym/img/bg.jpg);
+        }     
+        // 見出し
+        &__heading {
+            // background-color: #c5ebee;
+        }     
+        // 本文
+        &__text {
+            // background-color: #c5ebee;
+        }    
+    }
+    &__works-modal {
+        // 位置
+        &__position {
+            height: calc(100vh - 56px);
+        }     
+        // 背景
+        &__bg {
+            background-color: #64a5ae;
+        }     
+        // 見出し
+        &__heading {
+            // background-color: #64a5ae;
+        }     
+        // 本文
+        &__text {
+            // background-color: #64a5ae;
+        }    
+    }
+    &__skill-set {
+        // 位置
+        &__position {
+            height: calc(100vh - 56px);
+        }     
+        // 背景
+        &__bg {
+            background-color: #fafafa;
+        }     
+        // 見出し
+        &__heading {
+            // background-color: #c5ebee;
+        }     
+        // 本文
+        &__text {
+            // background-color: #c5ebee;
+        }    
+    }
+    &__profile {
+        // 位置
+        &__position {
+            height: calc(100vh - 56px);
+        }     
+        // 背景
+        &__bg {
+            background-image: url(/wp-content/themes/sgym/img/bg.jpg);
+        }     
+        // 見出し
+        &__heading {
+            // background-color: #64a5ae;
+        }     
+        // 本文
+        &__text {
+            // background-color: #64a5ae;
+        }    
+    }
+
+}

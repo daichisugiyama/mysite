@@ -1,0 +1,54 @@
+.header {
+    &__navbar {
+        &__bg {
+            // background-color: rgba(255,255,255,.7) !important;
+            // background-color: #ddf7fa;
+            padding: 0.75rem 0;
+            background-color: transparent;
+            box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+            background-image: linear-gradient(to bottom, rgba(#bfedf9, 1), rgba(#bfedf9, 0.97));
+            @each $color, $value in $theme-colors {
+                &--#{$color} {
+                    background-image: linear-gradient(to bottom, rgba($value, 1), rgba($value, 0.97)) !important;
+                }
+            }
+            // &--works {
+            //     background-image: linear-gradient(to bottom, rgba(#e8bff9, 1), rgba(#e8bff9, 0.97)) !important;
+            // }
+            // &--prototype {
+            //     background-image: linear-gradient(to bottom, rgba(#f9e2bf, 1), rgba(#f9e2bf, 0.97)) !important;
+            // }
+            // &--note {
+            //     background-image: linear-gradient(to bottom, rgba(#bfc9f9, 1), rgba(#bfc9f9, 0.97)) !important;
+            // }
+            // &--analysis {
+            //     background-image: linear-gradient(to bottom, rgba(#f9bfd6, 1), rgba(#f9bfd6, 0.97)) !important;
+            // }
+        }
+        &__sns {
+            @include media-breakpoint-up(lg) {
+                font-size: 0;
+            }
+            &__image {
+                @include media-breakpoint-down(lg) {
+                    display: none;
+                }    
+            }
+            // @include media-breakpoint-down(md) {
+            //     img {
+            //         display: none;
+            //     }
+            // }
+        }
+        &__toggler {
+            border: none;
+        }
+        .nav-link {
+            color: rgba(0, 0, 0, 0.85);
+        }
+        .nav-link.active {
+            font-weight: 600;
+            color: #000;
+        }
+    }
+}

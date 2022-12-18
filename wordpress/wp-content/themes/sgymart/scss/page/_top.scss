@@ -1,0 +1,26 @@
+.top {
+    &__content {
+        padding: 10px 5%;
+    }
+    &__card {
+        margin: 5px;
+        padding: 5px;
+        border: none;
+        box-shadow: 0px 4px 4px -2px rgb(0 0 0 / 15%);
+        &__title {
+            font-size: 17px;
+        }
+        &__description {
+            font-size: 14px;
+        }
+        &__image {
+            padding: 9px;
+        }
+        &__category {
+            font-size: 12px;
+        }
+        &__date {
+            font-size: 12px;
+        }
+    }
+}

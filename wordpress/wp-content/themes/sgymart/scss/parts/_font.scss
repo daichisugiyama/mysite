@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "YakuHanJP";
+	font-weight: 100;
+	font-style: normal;
+	src: url("../font/YakuHanJP-Thin.woff2") format("woff2"), url("../font/YakuHanJP-Thin.woff") format("woff");
+}
+@font-face {
+	font-family: "YakuHanJP";
+	font-weight: 200;
+	font-style: normal;
+	src: url("../font/YakuHanJP-Light.woff2") format("woff2"), url("../font/YakuHanJP-Light.woff") format("woff");
+}
+@font-face {
+	font-family: "YakuHanJP";
+	font-weight: 300;
+	font-style: normal;
+	src: url("../font/YakuHanJP-DemiLight.woff2") format("woff2"), url("../font/YakuHanJP-DemiLight.woff") format("woff");
+}
+@font-face {
+	font-family: "YakuHanJP";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../font/YakuHanJP-Regular.woff2") format("woff2"), url("../font/YakuHanJP-Regular.woff") format("woff");
+}
+@font-face {
+	font-family: "YakuHanJP";
+	font-weight: 500;
+	font-style: normal;
+	src: url("../font/YakuHanJP-Medium.woff2") format("woff2"),	url("../font/YakuHanJP-Medium.woff") format("woff");
+}
+@font-face {
+	font-family: "YakuHanJP";
+	font-weight: 700;
+	font-style: normal;
+	src: url("../font/YakuHanJP-Bold.woff2") format("woff2"),	url("../font/YakuHanJP-Bold.woff") format("woff");
+}
+@font-face {
+	font-family: "YakuHanJP";
+	font-weight: 900;
+	font-style: normal;
+	src: url("../font/YakuHanJP-Black.woff2") format("woff2"), url("../font/YakuHanJP-Black.woff") format("woff");
+}
+body {
+	font: 1rem/1.5 var(--bs-font-sans-serif);
+}
+  

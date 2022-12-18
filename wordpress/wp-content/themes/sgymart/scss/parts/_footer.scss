@@ -1,0 +1,22 @@
+.footer {
+    &__bg {
+        background-image: linear-gradient(to bottom, rgba(#bfedf9, 1), rgba(#bfedf9, 0.97)) !important;
+        @each $color, $value in $theme-colors {
+            &--#{$color} {
+                background-image: linear-gradient(to bottom, rgba($value, 1), rgba($value, 0.97)) !important;
+            }
+        }
+        // &--works {
+        //     background-image: linear-gradient(to bottom, rgba(#e8bff9, 1), rgba(#e8bff9, 0.97)) !important;
+        // }
+        // &--prototype {
+        //     background-image: linear-gradient(to bottom, rgba(#f9e2bf, 1), rgba(#f9e2bf, 0.97)) !important;
+        // }
+        // &--note {
+        //     background-image: linear-gradient(to bottom, rgba(#bfc9f9, 1), rgba(#bfc9f9, 0.97)) !important;
+        // }
+        // &--analysis {
+        //     background-image: linear-gradient(to bottom, rgba(#f9bfd6, 1), rgba(#f9bfd6, 0.97)) !important;
+        // }
+    }
+}
